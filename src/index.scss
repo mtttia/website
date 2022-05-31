@@ -1,0 +1,19 @@
+// Override default variables before the import
+$primary: #2E3FDF;
+$secondary: #958BB6;
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+.btn-primary:hover{
+  box-shadow: 2px 2px 5px $primary;
+}
+
+.btn-secondary:hover {
+  box-shadow: 2px 2px 5px $secondary;
+}
+
+.btn{
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+}
